@@ -1,6 +1,44 @@
-html, body {
-    height: 100%;
-    width: 100%;
+@import "colors";
+@import "fonts";
 
-    background-color: #F3F3F3;
+html,
+body {
+	background-color: #f3f3f3;
+}
+
+.header-navbar {
+	z-index: 10;
+        
+    background-color: rgba($color: #fff, $alpha: .45);
+
+    * {
+        color: #fff !important;
+        font-size: 1.05rem;
+        font-weight: 600;
+    }
+    .navbar-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+    }
+}
+
+.main-container {
+	#primary-carousel {
+        display: block;
+		max-width: 100vw;
+		height: 100vh;
+		max-height: 100vh;
+
+        img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+        }
+	}
+}
+
+.container {
+	background-color: $primary-color-light;
+	min-height: 100%;
 }
