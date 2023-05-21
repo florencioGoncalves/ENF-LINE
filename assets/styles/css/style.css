@@ -31,7 +31,7 @@ body {
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
 }
 .header-navbar .nav-link.active, .header-navbar .nav-link:hover {
-  color: #62c8e4 !important;
+  color: #3bc1e6 !important;
   text-shadow: none;
 }
 .header-navbar .navbar-container {
@@ -64,6 +64,29 @@ body {
 .main-container #primary-carousel .carousel-caption p {
   text-align: left;
   font-size: 1.15rem;
+}
+
+.icon {
+  bottom: -2rem !important;
+  right: 1.875rem !important;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  transition: all 0.5s;
+  background: #001b50;
+}
+.icon:hover {
+  cursor: pointer;
+  background-color: #015383;
+}
+.icon svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  fill: #fff;
 }
 
 .card-title {
