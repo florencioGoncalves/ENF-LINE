@@ -9,6 +9,10 @@
   font-weight: 600;
 }
 
+.descricao {
+  font-weight: 300;
+}
+
 html,
 body {
   background-color: #f3f3f3;
@@ -16,7 +20,7 @@ body {
 
 .header-navbar {
   z-index: 10;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 .header-navbar * {
   color: #fff !important;
@@ -60,6 +64,16 @@ body {
 .main-container #primary-carousel .carousel-caption p {
   text-align: left;
   font-size: 1.15rem;
+}
+
+.card-title {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #666;
 }
 
 /*# sourceMappingURL=style.css.map */
