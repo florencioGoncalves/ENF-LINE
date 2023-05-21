@@ -15,12 +15,12 @@
 	</head>
 	<body>
 		<header class="header-navbar position-fixed w-100">
-			<nav class="navbar navbar-expand-lg px-4">
+			<nav class="navbar navbar-expand-lg px-sm-5">
 				<div class="container-fluid navbar-container">
-					<a class="navbar-brand mx-auto" href="#">
+					<a class="navbar-brand" href="#">
 						<img
 							src="./assets/images/01-Sem-fundo-resolução-baixa.png"
-							height="80"
+							height="70"
 							alt=""
 						/>
 					</a>
@@ -36,12 +36,14 @@
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav">
+						<ul class="navbar-nav ms-auto">
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">Início</a>
+								<a class="nav-link active" aria-current="page" href="#"
+									>Início</a
+								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Features</a>
+								<a class="nav-link" href="#">Quem somos</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Pricing</a>
@@ -55,46 +57,97 @@
 			</nav>
 		</header>
 
-		<main class="main-container container-fluid position-absolute top-0 left-0 w-100 h-100">
-            <div id="primary-carousel" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#primary-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#primary-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#primary-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./IMG-activi.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../IMG_20230506_173323_442.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../IMG_20230506_173350_279.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#primary-carousel" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#primary-carousel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </main>
+		<main
+			class="main-container container-fluid position-absolute top-0 left-0 w-100 h-100 p-0"
+		>
+			<div id="primary-carousel" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#primary-carousel"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#primary-carousel"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#primary-carousel"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="./.images/MacBook Pro at Night Free Stock Photo _ picjumbo.jpg" class="d-block w-100" alt="..." />
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Sopa solidária</h5>
+							<p>
+								A ENF-LINE sente-se feliz em ajudar quem pode, quando pode!
+								Venha fazer parte desse mundo grande.
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="./.images/Windows 11.png"
+							class="d-block w-100"
+							alt="..."
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Second slide label</h5>
+							<p>
+								Some representative placeholder content for the second slide.
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="./.images/I love coding.png"
+							class="d-block w-100"
+							alt="..."
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Third slide label</h5>
+							<p>
+								Some representative placeholder content for the third slide.
+							</p>
+						</div>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#primary-carousel"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#primary-carousel"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+
+            <div class="container">
+                <section class="quem-somos">
+                    <h3 class="titulo h2 pt-4 mt-5 text-center">Quem somos</h3>
+                    <p class="text-center">ENF-LINE é uma empresa jovem no mercado nacional, empenhados em promover, capacitar e levar o conhecimento em diversas áreas do saber, dando palestras, workshops, seminários e cursos, voltados principalmente na área social levando amor e educação. A nossa vontade de crescer faz com que nos desafiemos com entusiasmo e determinação a cada projecto a que nos propomos.</p>
+                </section>
+            </div>
+		</main>
 
 		<script src="./assets/scripts/bootstrap.min.js"></script>
 		<script src="./assets/scripts/script.js"></script>
