@@ -6,10 +6,17 @@ body {
 	background-color: #f3f3f3;
 }
 
+$header-height: 96px;
+
+* {
+    box-sizing: border-box;
+}
+
 .header-navbar {
 	z-index: 10;
         
     background-color: rgba($color: #fff, $alpha: .4);
+    transform: background-color 1s;
 
     * {
         color: #fff !important;
@@ -29,19 +36,39 @@ body {
         flex-direction: row !important;
         justify-content: space-between !important;
     }
+
+    &.scrolled {
+        background-color: #fff;
+        
+        * {
+            color: #888 !important;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: 'Montserrat';
+            text-transform: uppercase;
+            text-shadow: none;
+        }
+    }
 }
 
 .main-container {
-	#primary-carousel {
+	#inicio {
         display: block;
-		max-width: 100vw;
-		height: 100vh;
-		max-height: 100vh;
+		max-height: calc(100vh - $header-height);
+        overflow: hidden;
+        margin-top: $header-height;
 
+        background: rgba($color: $primary-color-medium, $alpha: .15);
+        
+        .carousel-inner, .carousel-item {
+            max-height: calc(100vh - $header-height);
+        }
         img {
-            width: 100vw;
-            height: 100vh;
-            object-fit: cover;
+            width: auto !important;
+            max-width: 100%;
+            max-height: calc(100vh - $header-height);
+            margin: 0 auto;
+            object-fit: contain !important;
         }
 
         .carousel-caption {
