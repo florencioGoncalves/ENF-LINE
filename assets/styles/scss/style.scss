@@ -124,6 +124,13 @@ $header-height: 80px;
     color: #666;
 }
 
+#recrutamento {
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
 #servicos {
     .col {
         .top {
