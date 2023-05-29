@@ -1,198 +1,240 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>ENF-LINE</title>
-		<link
-			rel="shortcut icon"
-			href="./assets/images/Icone-Com-fundo-baixa-resolução.png"
-			type="image/x-icon"
-		/>
-		<link rel="stylesheet" href="./assets/styles/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="./assets/styles/css/style.css" />
-	</head>
-	<body>
-		<header id="header" class="header-navbar position-fixed top-0 w-100 shadow scrolled">
-			<nav id="navbar" class="navbar navbar-expand-lg px-sm-5">
-				<div class="container-fluid navbar-container">
-					<a class="navbar-brand" href="#">
-						<img
-							src="./assets/images/01-Sem-fundo-resolução-baixa.png"
-							height="70"
-							alt="ENF-LINE logo"
-						/>
-					</a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarNav"
-						aria-controls="navbarNav"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav ms-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="#inicio">Início</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#quem-somos">Quem somos</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</header>
 
-		<main class="main-container container-fluid p-0 mb-5" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-			<div id="inicio" class="carousel slide shadow-sm" data-bs-ride="carousel">
-				<div class="carousel-indicators">
-					<button
-						type="button"
-						data-bs-target="#inicio"
-						data-bs-slide-to="0"
-						class="active"
-						aria-current="true"
-						aria-label="Slide 1"
-					></button>
-					<button
-						type="button"
-						data-bs-target="#inicio"
-						data-bs-slide-to="1"
-						aria-label="Slide 2"
-					></button>
-					<button
-						type="button"
-						data-bs-target="#inicio"
-						data-bs-slide-to="2"
-						aria-label="Slide 3"
-					></button>
-					<button
-						type="button"
-						data-bs-target="#inicio"
-						data-bs-slide-to="3"
-						aria-label="Slide 4"
-					></button>
-				</div>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="./assets/images/carousel/Cartaz.jpg" class="d-block w-100 h-100" alt="ENF-LINE" />
-					</div>
-					<div class="carousel-item">
-						<img src="./assets/images/carousel/Cartaz 1.jpg" class="d-block w-100 h-100" alt="ENF-LINE"
-						/>
-					</div>
-					<div class="carousel-item">
-						<img src="./assets/images/carousel/Cartaz 2.jpg" class="d-block w-100 h-100" alt="ENF-LINE"
-						/>
-					</div>
-					<div class="carousel-item">
-						<img src="./assets/images/carousel/Cartaz 3.jpg" class="d-block w-100 h-100" alt="ENF-LINE"
-						/>
-					</div>
-				</div>
-				<button
-					class="carousel-control-prev"
-					type="button"
-					data-bs-target="#inicio"
-					data-bs-slide="prev"
-				>
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>ENF-LINE</title>
+	<link rel="shortcut icon" href="./assets/images/Icone-Com-fundo-baixa-resolução.png" type="image/x-icon" />
+	<link rel="stylesheet" href="./assets/styles/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="./assets/styles/css/style.css" />
+</head>
+
+<body>
+	<header id="header" class="header-navbar position-fixed top-0 w-100 shadow scrolled">
+		<nav id="navbar" class="navbar navbar-expand-lg px-sm-5 py-0">
+			<div class="container-fluid navbar-container">
+				<a class="navbar-brand" href="#">
+					<img src="./assets/images/01-Sem-fundo-resolução-baixa.png" height="70" alt="ENF-LINE logo" />
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
 				</button>
-				<button
-					class="carousel-control-next"
-					type="button"
-					data-bs-target="#inicio"
-					data-bs-slide="next"
-				>
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#inicio">Início</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#quem-somos">Quem somos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#servicos">Serviços</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#recrutamento">Recrutamento</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contactos">Contactos</a>
+						</li>
+					</ul>
+				</div>
 			</div>
+		</nav>
+	</header>
 
-            <div class="container">
-                <section id="quem-somos" class="mt-4">
-                    <h2 class="titulo pt-4 mt-5 text-center">Quem somos</h2>
-                    <p class="descricao text-center py-3 py-sm-5">ENF-LINE é uma empresa jovem no mercado nacional, empenhados em promover, capacitar e levar o conhecimento em diversas áreas do saber, dando palestras, workshops, seminários e cursos, voltados principalmente na área social levando amor e educação. A nossa vontade de crescer faz com que nos desafiemos com entusiasmo e determinação a cada projecto a que nos propomos.</p>
+	<main class="main-container container-fluid p-0" data-bs-spy="scroll" data-bs-target="#navbar"
+		data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+		class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
 
-                    <div class="row row-cols-1 row-cols-md-3 g-4 pb-5">
-                        <div class="col">
-                          <div class="card  border-0 shadow">
-                            <div class="container-fluid p-0 position-relative w-100">
-                                <img src="./assets/images/scott-graham-5fNmWej4tAA-unsplash.jpg" class="card-img-top" alt="Missão - ENF-LINE">
-                                <div class="icon position-absolute bottom-0">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
-                                        <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z"/>
-                                        <path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z"/>
-                                        <path d="M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"/>
-                                      </svg>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Missão</h5>
-                              <p class="card-text">Oferecer aos nossos clientes serviços que excedam as suas expectativas e ainda assegurar a prestação de serviços diferenciados, na saúde, no transporte, comércio e a contribuir para ganhos em educação através de actividades de investigação, bem como difundir a cultura científica, fomentar a capacitação e formação.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card  border-0 shadow">
-                            <div class="container-fluid p-0 position-relative w-100">
-                                <img src="./assets/images/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg" class="card-img-top" alt="...">
-                                <div class="icon position-absolute">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-shaded" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M8 14.933a.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067v13.866zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Valores</h5>
-                              <ul class="card-text">
-                                <li>Diversidade</li>
-                                <li>Humanização</li>
-                                <li>Inovação</li>
-                                <li>Profissionalismo e colaboração</li>
-                                <li>Rigor</li>
-                                <!--<li>Fortalecer os mecanismos de proteção social dos grupos mais vulneráveis(serviços gratuitos, isenções, entre outros)</li>-->
-                                <!--<li>Garantir sustentabilidade das actividades no âmbito de prestação de serviços</li>-->
-                                <!--<li>Identificar, de forma clara, os diversos públicos-alvos e os meios de comunicação mais adequados e cada segmento, de acordo com as mensagens a comunicar</li>-->
-                                <li>Primar pela qualidade do serviço prestado</li>
-                                <li>Promover a formação em diversas áreas do saber</li>
-                                <li>Promover aulas e cuidados domiciliares</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card  border-0 shadow">
-                            <div class="container-fluid p-0 position-relative w-100">
-                                <img src="./assets/images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg" class="card-img-top" alt="...">
-                                <div class="icon position-absolute bottom-0">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
-                                        <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Visão</h5>
-                              <p class="card-text">
-                                Ser uma referência nacional, pela qualidade, eficiência e segurança do serviço prestado. Obter um alto nível de satisfação na população, visando ser a preferência dos clientes, primando por superar suas expectativas e construir relacionamentos sólidos e duradouros, fundamentados em confiança mútua e compromisso.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                </section>
-            </div>
-		</main>
+		<div id="inicio" class="carousel slide shadow-sm" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#inicio" data-bs-slide-to="0" class="active" aria-current="true"
+					aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#inicio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#inicio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				<button type="button" data-bs-target="#inicio" data-bs-slide-to="3" aria-label="Slide 4"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./assets/images/carousel/Cartaz.jpg" class="d-block w-100 h-100" alt="ENF-LINE" />
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/images/carousel/Cartaz 1.jpg" class="d-block w-100 h-100" alt="ENF-LINE" />
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/images/carousel/Cartaz 2.jpg" class="d-block w-100 h-100" alt="ENF-LINE" />
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/images/carousel/Cartaz 3.jpg" class="d-block w-100 h-100" alt="ENF-LINE" />
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#inicio" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#inicio" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
 
-		<script src="./assets/scripts/bootstrap.min.js"></script>
-		<script src="./assets/scripts/gsap.min.js"></script>
-		<script src="./assets/scripts/ScrollTrigger.min.js"></script>
-		<script src="./assets/scripts/script.js"></script>
-	</body>
+		<div class="container-fluid g-3">
+			<section id="quem-somos" class="container mt-4 pb-4">
+				<h2 class="titulo pt-4 mt-5 text-center">Quem somos</h2>
+				<p class="descricao text-center py-3 py-sm-5">ENF-LINE é uma empresa jovem no mercado nacional,
+					empenhados em promover, capacitar e levar o conhecimento em diversas áreas do saber, dando
+					palestras, workshops, seminários e cursos, voltados principalmente na área social levando amor e
+					educação. A nossa vontade de crescer faz com que nos desafiemos com entusiasmo e determinação a cada
+					projecto a que nos propomos.</p>
+
+				<div class="row row-cols-1 row-cols-md-3 g-4 pb-5">
+					<div class="col">
+						<div class="card  border-0 shadow">
+							<div class="container-fluid p-0 position-relative w-100">
+								<img src="./assets/images/scott-graham-5fNmWej4tAA-unsplash.jpg" class="card-img-top"
+									alt="Missão - ENF-LINE">
+								<div class="icon position-absolute bottom-0">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
+										<path
+											d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z" />
+										<path
+											d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z" />
+										<path
+											d="M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z" />
+									</svg>
+								</div>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Missão</h5>
+								<p class="card-text">Oferecer aos nossos clientes serviços que excedam as suas
+									expectativas e ainda assegurar a prestação de serviços diferenciados, na saúde, no
+									transporte, comércio e a contribuir para ganhos em educação através de actividades
+									de investigação, bem como difundir a cultura científica, fomentar a capacitação e
+									formação.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card  border-0 shadow">
+							<div class="container-fluid p-0 position-relative w-100">
+								<img src="./assets/images/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg"
+									class="card-img-top" alt="...">
+								<div class="icon position-absolute">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-shield-shaded" viewBox="0 0 16 16">
+										<path fill-rule="evenodd"
+											d="M8 14.933a.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067v13.866zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z" />
+									</svg>
+								</div>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Valores</h5>
+								<ul class="card-text">
+									<li>Diversidade</li>
+									<li>Humanização</li>
+									<li>Inovação</li>
+									<li>Profissionalismo e colaboração</li>
+									<li>Rigor</li>
+									<!--<li>Fortalecer os mecanismos de proteção social dos grupos mais vulneráveis(serviços gratuitos, isenções, entre outros)</li>-->
+									<!--<li>Garantir sustentabilidade das actividades no âmbito de prestação de serviços</li>-->
+									<!--<li>Identificar, de forma clara, os diversos públicos-alvos e os meios de comunicação mais adequados e cada segmento, de acordo com as mensagens a comunicar</li>-->
+									<li>Primar pela qualidade do serviço prestado</li>
+									<li>Promover a formação em diversas áreas do saber</li>
+									<li>Promover aulas e cuidados domiciliares</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card  border-0 shadow">
+							<div class="container-fluid p-0 position-relative w-100">
+								<img src="./assets/images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg" class="card-img-top"
+									alt="...">
+								<div class="icon position-absolute bottom-0">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-lightbulb" viewBox="0 0 16 16">
+										<path
+											d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z" />
+									</svg>
+								</div>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Visão</h5>
+								<p class="card-text">
+									Ser uma referência nacional, pela qualidade, eficiência e segurança do serviço
+									prestado. Obter um alto nível de satisfação na população, visando ser a preferência
+									dos clientes, primando por superar suas expectativas e construir relacionamentos
+									sólidos e duradouros, fundamentados em confiança mútua e compromisso.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="servicos" class="container pb-4">
+				<h3 class="titulo text-center mt-2 pt-3">Serviços</h3>
+				<div class="row row-cols-3 mt-4 pt-2 g-4">
+					<div class="col">
+						<h5 class="subtitulo col">Atendimento ao domicílio na área de enfermagem</h5>
+					</div>
+					<div class="col">
+						<h5 class="subtitulo col">Formação</h5>
+					</div>
+					<div class="col">
+						<h5 class="subtitulo col">Transporte</h5>
+					</div>
+					<div class="col">
+						<h5 class="subtitulo col">Actividades filantrópicas</h5>
+					</div>
+					<div class="col">
+						<i class="fa-thin fa-book-medical" style="color: #147894;"></i>
+						<h5 class="subtitulo col">Farmácia(Brevemente)</h5>
+					</div>
+				</div>
+			</section>
+
+			<section id="recrutamento" class="container">
+				<h3 class="titulo text-center mt-5">Recrutamento</h3>
+				<p class="descricao py-3 py-sm-5 text-center">Caso queira trabalhar connosco, nos mande seu currículo <a
+						href="">clicando aqui!</a></p>
+			</section>
+
+			<section id="contactos" class="py-5 mt-4">
+				<div class="container py-3">
+					<h3 class="titulo text-center">Contactos</h3>
+					<p class="text-center py-4">Entre em contacto connosco pelas seguintes vias:</p>
+					<div class="row row-cols-3 mt-2">
+						<div class="col">
+							<h4 class="contactos__titulo text-center">Endereço</h4>
+							<a href="" target="_blank" class="text-center">
+								<address>Município de Viana, Luanda</address>
+							</a>
+						</div>
+						<div class="col">
+							<i class="fa-thin fa-phone"></i>
+							<h4 class="contactos__titulo text-center">Telemóvel</h4>
+							<a href="tel:+244 935 313 296" class="text-center m-0">+244 935 313 296</a>
+							<a href="tel:" class="text-center m-0">+244 939 461 224</a>
+						</div>
+						<div class="col">
+							<h4 class="contactos__titulo text-center">Email</h4>
+							<a href="mailto:"></a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	<footer class="footer h-100 bg-light border-top">a</footer>
+
+	<script src="./assets/scripts/bootstrap.min.js"></script>
+	<script src="./assets/scripts/script.js"></script>
+</body>
+
 </html>

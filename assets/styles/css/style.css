@@ -5,17 +5,52 @@
 }
 
 .titulo {
+  position: relative;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+}
+.titulo::before, .titulo::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.titulo::before {
+  top: calc(100% + 4.5px);
+  width: 9rem;
+  height: 2px;
+  background-color: #147894;
+  opacity: 0.1;
+}
+.titulo::after {
+  width: 3rem;
+  height: 3.5px;
+  background-color: #147894;
+}
+
+.subtitulo {
+  font-size: 1.1rem;
+  color: #555555;
 }
 
 .descricao {
   font-weight: 300;
 }
 
+.contactos__titulo {
+  margin-bottom: 1.1rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #888;
+}
+
 html,
 body {
-  background-color: #f3f3f3;
+  background-color: #fefefe;
 }
 
 * {
@@ -58,18 +93,18 @@ body {
 
 .main-container #inicio {
   display: block;
-  max-height: calc(100vh - 96px);
+  max-height: calc(100vh - 80px);
   overflow: hidden;
-  margin-top: 96px;
+  margin-top: 80px;
   background: rgba(1, 83, 131, 0.15);
 }
 .main-container #inicio .carousel-inner, .main-container #inicio .carousel-item {
-  max-height: calc(100vh - 96px);
+  max-height: calc(100vh - 80px);
 }
 .main-container #inicio img {
   width: auto !important;
   max-width: 100%;
-  max-height: calc(100vh - 96px);
+  max-height: calc(100vh - 80px);
   margin: 0 auto;
   object-fit: contain !important;
 }
@@ -119,6 +154,40 @@ body {
 .card-text {
   font-size: 0.9rem;
   color: #666;
+}
+
+#servicos .col {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+#servicos svg {
+  width: 2.25rem;
+  height: 2.25rem;
+  fill: rgba(20, 120, 148, 0.9);
+}
+
+#contactos {
+  background: rgba(1, 83, 131, 0.09);
+}
+#contactos i {
+  width: 2rem;
+  background: #000;
+  color: white;
+  height: 2rem;
+}
+#contactos p, #contactos a {
+  display: block;
+  color: currentColor;
+  font-weight: 300;
+  text-decoration: none;
+}
+#contactos a {
+  color: #444;
+  font-weight: 400;
+}
+#contactos a:hover {
+  color: #147894;
 }
 
 /*# sourceMappingURL=style.css.map */

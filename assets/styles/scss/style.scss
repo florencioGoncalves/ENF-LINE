@@ -3,10 +3,10 @@
 
 html,
 body {
-	background-color: #f3f3f3;
+	background-color: #fefefe;
 }
 
-$header-height: 96px;
+$header-height: 80px;
 
 * {
     box-sizing: border-box;
@@ -122,4 +122,43 @@ $header-height: 96px;
 .card-text {
     font-size: .9rem;
     color: #666;
+}
+
+#servicos {
+    .col {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+    }
+    svg {
+        width: 2.25rem;
+        height: 2.25rem;
+        fill: rgba($color: $primary-color-light, $alpha: .9);
+    }
+}
+
+#contactos {
+    background: rgba($color: $primary-color-medium, $alpha: .09);
+
+    i {
+        width: 2rem;
+        background: #000;
+        color: white;
+        height: 2rem;
+    }
+    
+    p, a {
+        display: block;
+        
+        color: currentColor;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    a {
+        color: #444;
+        font-weight: 400;
+        &:hover {
+            color: $primary-color-light;
+        }
+    }
 }

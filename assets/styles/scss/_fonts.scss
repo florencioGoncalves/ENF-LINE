@@ -1,15 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import "colors";
 
 * {
     font-family: 'Poppins', sans-serif;
 }
 
 .titulo {
+    position: relative;
+    
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+
+    &::before, &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: calc(100% + 4px);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &::before {
+        top: calc(100% + 4.5px);
+        width: 9rem;
+        height: 2px;
+        background-color: $primary-color-light;
+        opacity: .1;
+    }
+    &::after {
+        width: 3rem;
+        height: 3.5px;
+        background-color: $primary-color-light;
+    }
+}
+
+.subtitulo {
+    font-size: 1.1rem;
+    color: rgba($color: #555, $alpha: 1);
 }
 
 .descricao {
     font-weight: 300;
+}
+
+.contactos__titulo {
+    margin-bottom: 1.1rem;
+    
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #888;
 }
