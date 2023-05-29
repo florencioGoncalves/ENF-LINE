@@ -126,19 +126,50 @@ $header-height: 80px;
 
 #servicos {
     .col {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        align-items: center;
+        .top {
+            display: grid;
+            grid-template-columns: auto 1fr;
+
+            svg {
+                width: 2rem;
+                height: 2rem;
+
+                color: $primary-color-light;
+
+                &.google-icon {
+                    fill: $primary-color-light;
+                }
+            }
+            .subtitulo {
+                @media only screen and (min-widht: 576px){
+                    min-height: 45px;
+                }
+            
+                color: #555;
+                font-size: 1.15rem;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        }
+        .descricao {
+            width: calc(100% - 3rem);
+            margin: .5rem 0;
+            margin-left: auto;
+        
+            font-size: .875rem;
+            line-height: 1.5;
+        }
     }
-    svg {
-        width: 2.25rem;
-        height: 2.25rem;
-        fill: rgba($color: $primary-color-light, $alpha: .9);
-    }
+    
 }
 
 #contactos {
     background: rgba($color: $primary-color-medium, $alpha: .09);
+
+    .col:nth-of-type(2) {
+        border-left: 1px solid #bbb;
+        border-right: 1px solid #bbb;
+    }
 
     svg {
         width: 2.25rem;
