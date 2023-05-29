@@ -140,11 +140,13 @@ $header-height: 80px;
 #contactos {
     background: rgba($color: $primary-color-medium, $alpha: .09);
 
-    i {
-        width: 2rem;
-        background: #000;
-        color: white;
-        height: 2rem;
+    svg {
+        width: 2.25rem;
+        height: 2.25rem;
+        display: block;
+        margin: 0 auto 1.5rem;
+
+        color: $primary-color-light;
     }
     
     p, a {

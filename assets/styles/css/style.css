@@ -170,11 +170,12 @@ body {
 #contactos {
   background: rgba(1, 83, 131, 0.09);
 }
-#contactos i {
-  width: 2rem;
-  background: #000;
-  color: white;
-  height: 2rem;
+#contactos svg {
+  width: 2.25rem;
+  height: 2.25rem;
+  display: block;
+  margin: 0 auto 1.5rem;
+  color: #147894;
 }
 #contactos p, #contactos a {
   display: block;
