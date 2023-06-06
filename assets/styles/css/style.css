@@ -108,6 +108,10 @@ body {
   margin: 0 auto;
   object-fit: contain !important;
 }
+.main-container #inicio .full-screen img {
+  width: 100% !important;
+  object-fit: cover !important;
+}
 .main-container #inicio .carousel-caption {
   margin-bottom: 3rem;
 }

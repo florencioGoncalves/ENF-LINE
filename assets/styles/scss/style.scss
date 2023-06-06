@@ -71,6 +71,12 @@ $header-height: 80px;
             object-fit: contain !important;
         }
 
+        .full-screen img {
+            width: 100% !important;
+            object-fit: cover !important;
+
+        }
+
         .carousel-caption {
             margin-bottom: 3rem;
             h5 {

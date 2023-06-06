@@ -1,0 +1,2 @@
+// Estando na raiz do projecto, execute o seguinte comando a baixo no terminal para que possa editar o estilo com o arquivo style.scss
+sass --watch ./assets/styles/scss/style.scss ./assets/styles/css/style.css
